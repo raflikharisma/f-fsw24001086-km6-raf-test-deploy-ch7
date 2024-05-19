@@ -5,26 +5,7 @@ const app = require("../app");
 const dotenv = require("dotenv");
 dotenv.config();
 
-// describe("Dog", () => {
-//     it("should have name called 'Arnold'", () => {
-//         const dog = new Dog("Arnold");
 
-//         expect(dog).toHaveProperty("name", "Arnold");
-//     });
-
-//     it("should be able to bark and return 'Woof!'", () => {
-//         const dog = new Dog("Arnold");
-//         expect(dog.bark()).toEqual("Woof!");
-//     });
-// });
-
-// describe("API get all cars", () => {
-//     it("success get all data cars", (done) => {
-//         request(app)
-//             .get("/v1/cars")
-//             .expect(200, done);
-//     });
-// });
 
 describe("API get all cars", () => {
   it("success get all data cars", async () => {
